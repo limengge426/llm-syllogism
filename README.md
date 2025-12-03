@@ -37,15 +37,19 @@ This repository contains the complete pipeline for my independent research proje
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Generate the syllogism dataset
 ```bash
 python scripts/syllogism_generation.py
+```
 
 ### 3. Format results into structured prompt–response pairs
 ```bash
 python scripts/promptify.py
+```
 
 ### 4. Query LLM APIs concurrently
 ```bash
 python scripts/run_api.py
+```
