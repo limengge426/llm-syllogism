@@ -4,7 +4,6 @@ A systematic evaluation framework for analyzing syllogistic reasoning and struct
 
 This repository contains the complete pipeline for my independent research project on **systematic biases in LLMs’ syllogistic reasoning**, later accepted by **AAAI 2026 Bridge: Logical and Symbolic Reasoning in Language Models**. It automatically generates controlled syllogistic reasoning tasks across all classical forms, queries multiple LLMs concurrently, parses and validates responses, and produces statistical analyses and visualizations.
 
----
 
 ## 🔍 Key Features
 
@@ -30,7 +29,6 @@ This repository contains the complete pipeline for my independent research proje
 - **Middle-term position bias**
 - **High cross-model consistency** in reasoning patterns
 
----
 
 ## 🚀 Quick Start
 
