@@ -1,0 +1,32 @@
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+
+# === Visualization ===
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# === Async & Utility ===
+tqdm>=4.66.0
+aiohttp>=3.9.0
+
+# === File & Environment Management ===
+python-dotenv>=1.0.0
+pathlib>=1.0.1
+openpyxl>=3.1.2
+
+# === LLM & API Clients ===
+openai>=1.40.0
+httpx>=0.27.0
+
+# === Optional: CSV/JSON tools ===
+pyyaml>=6.0.1
+jsonlines>=4.0.0
+
+# === Compatibility ===
+requests>=2.31.0
+typing-extensions>=4.12.0
+
+# === Development / Debugging ===
+ipython>=8.20.0
+black>=24.3.0
