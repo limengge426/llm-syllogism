@@ -2,6 +2,9 @@ numpy>=1.26.0
 pandas>=2.2.0
 scipy>=1.12.0
 
+# === Dataset generation ===
+nltk>=3.8.1
+
 # === Visualization ===
 matplotlib>=3.8.0
 seaborn>=0.13.0

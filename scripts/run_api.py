@@ -13,6 +13,14 @@ load_dotenv()
 
 MODELS_TO_TEST = [
     {
+        "model_name": "gpt-4o",
+        "api_key": os.getenv("OPENAI_API_KEY"),
+        "base_url": os.getenv("OPENAI_BASE_URL"),
+        "max_workers": 20,
+        "batch_size": 200,
+        "retry_count": 3,
+    },
+    {
         "model_name": "qwen3-max",
         "api_key": os.getenv("QWEN_API_KEY"),
         "base_url": os.getenv("QWEN_BASE_URL"),
@@ -85,7 +93,7 @@ async def async_ask_with_retry(client: AsyncOpenAI, model_name: str, prompt: str
 
 
 async def async_process_single_task(args):
-
+    client, model_name, rec, config, semaphore = args
     rec["model"] = model_name
     
     result, status = await async_ask_with_retry(
