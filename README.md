@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Consistent Biases in Large Language Models' Syllogistic Reasoning" width="100%">
+<img src="assets/banner.png" alt="Consistent Biases in Large Language Models' Syllogistic Reasoning" width="100%">
 
 <br>
 
