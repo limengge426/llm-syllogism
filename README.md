@@ -7,6 +7,7 @@
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](Paper.pdf)
 [![AAAI 2026](https://img.shields.io/badge/AAAI_2026-Bridge-1e3a8a?style=for-the-badge)](#-citation)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](requirements.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22A06B?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/limengge426/llm-syllogism?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/limengge426/llm-syllogism/stargazers)
 
 **Limeng Ge** · East China Normal University, Department of Philosophy
@@ -239,6 +240,13 @@ If you find this work useful, please consider citing it and giving the repo a �
   url       = {https://github.com/limengge426/llm-syllogism}
 }
 ```
+
+## 📄 License
+
+The code in this repository is released under the [MIT License](LICENSE). Two parts are excluded:
+
+- **`Paper.pdf`** © 2026 Association for the Advancement of Artificial Intelligence. All rights reserved.
+- **`vendor/corpora/wordnet/`** is WordNet 3.0 © 2006 Princeton University, redistributed under its [own license](vendor/corpora/wordnet/LICENSE).
 
 <div align="center">
 <sub>WordNet © Princeton University, used under the <a href="https://wordnet.princeton.edu/license-and-commercial-use">WordNet 3.0 license</a>.</sub>
