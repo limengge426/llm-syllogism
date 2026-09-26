@@ -1,0 +1,10 @@
+llm-syllogism
+Copyright (c) 2025-2026 Limeng Ge
+
+The MIT License in LICENSE covers the source code in this repository. It does NOT cover:
+
+- Paper.pdf: Copyright (c) 2026 Association for the Advancement of
+  Artificial Intelligence (www.aaai.org). All rights reserved.
+- vendor/corpora/wordnet/: WordNet 3.0, Copyright 2006 by Princeton
+  University, distributed under the WordNet 3.0 license included in
+  vendor/corpora/wordnet/LICENSE.

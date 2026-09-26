@@ -243,7 +243,7 @@ If you find this work useful, please consider citing it and giving the repo a �
 
 ## 📄 License
 
-The code in this repository is released under the [MIT License](LICENSE). Two parts are excluded:
+The code in this repository is released under the [MIT License](LICENSE). Two parts are excluded (see [NOTICE](NOTICE)):
 
 - **`Paper.pdf`** © 2026 Association for the Advancement of Artificial Intelligence. All rights reserved.
 - **`vendor/corpora/wordnet/`** is WordNet 3.0 © 2006 Princeton University, redistributed under its [own license](vendor/corpora/wordnet/LICENSE).
